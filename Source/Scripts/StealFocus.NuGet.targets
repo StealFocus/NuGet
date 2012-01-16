@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project 
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- IMPORTANT - you must import these targets for the build scripts to function. -->
+  <Import Project="..\packages\StealFocus.Build.1.0.11201.0\Scripts\StealFocus.Build.tasks" />
+
+  <PropertyGroup>
+    <CompanyName>StealFocus</CompanyName>
+    <Culture>en-GB</Culture>
+    <ProductName>NuGet</ProductName>
+    <StrongNamePublicKey>0024000004800000940000000602000000240000525341310004000001000100434df8e329c10ec491ed9d36ed5a242135379c550252dabd10eda9ae517ba40584a51d078dd85ee5f7c34f18a8c00722b1c641f360f6c9ee9f757b0cf943cc82cd7fe32dc3c2559f66e28d4217b17473c432852254ceeeb103cce9ba34381b61066d1573f9763ee69b3e1805b2d7804a2d095d635a54cdeb1ce987ad12fb5ebf</StrongNamePublicKey>
+    <StrongNamePublicKeyToken>183473e719f52167</StrongNamePublicKeyToken>
+    <StyleCopVersion>4.7</StyleCopVersion>
+  </PropertyGroup>
+
+</Project>

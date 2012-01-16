@@ -1,4 +1,3 @@
-
 *_i.c
 *_p.c
 *.aps
@@ -28,7 +27,6 @@ _ReSharper*/
 obj/
 Thumbs.db
 
+!Source/.nuget/NuGet.exe
+Source/Packages/
 AssemblyInfoCommon.g.cs
-/Source/Artefacts/NuGet/StealFocus.Build/Scripts
-/Source/Artefacts/NuGet/StealFocus.Build/*.nupkg
-!/Tools/NuGet/NuGet.exe
