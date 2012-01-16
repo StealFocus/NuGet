@@ -61,14 +61,14 @@
   </ItemGroup>
   
   <ItemGroup>
-    <!--<WebProject Include="$(SolutionDirectoryPath)\StealFocus.NuGet.Web.UI\StealFocus.NuGet.Web.UI.csproj">
+    <WebProject Include="$(SolutionDirectoryPath)\StealFocus.NuGet.Web.UI\StealFocus.NuGet.Web.UI.csproj">
       <Package>true</Package>
       <PackageAsSingleFile>false</PackageAsSingleFile>
-      <PackageTempDir>$(SystemDrive)\BzyAuthPkg\StealFocus.NuGet.Web.UI</PackageTempDir>
+      <PackageTempDir>$(SystemDrive)\StlFcsNgt\StealFocus.NuGet.Web.UI</PackageTempDir>
       <IncludeIisSettings>true</IncludeIisSettings>
-      <IncludeAppPool>true</IncludeAppPool>
+      <IncludeAppPool>false</IncludeAppPool>
       <DeployEncryptKey>Password1</DeployEncryptKey>
-    </WebProject>-->
+    </WebProject>
   </ItemGroup>
 
   <ItemGroup>
@@ -171,15 +171,15 @@
 
   <ItemGroup>
     <!-- Add "MSDeployAction" items as required. These will be deployed with MSDeploy. -->
-    <!--<MSDeployAction Include="Server01-StealFocus.NuGet.Web.UI">
-      <RequiredBranchName>Trunk</RequiredBranchName>
-      <TargetServer>Server01</TargetServer>
-      <IisWebApplicationName>Default Web Site/StealFocus.NuGet.Web.UI</IisWebApplicationName>
-      <IisWebApplicationPoolName></IisWebApplicationPoolName>
-      <IisVirtualDirectoryPhysicalPath>C:\WebSites\DefaultWebSite\StealFocus.NuGet.Web.UI</IisVirtualDirectoryPhysicalPath>
+    <MSDeployAction Include="ip-0A3AE60A-StealFocus.NuGet.Web.UI">
+      <RequiredBranchName>v1.0</RequiredBranchName>
+      <TargetServer>ip-0A3AE60A</TargetServer>
+      <IisWebApplicationName>Default Web Site/NuGet</IisWebApplicationName>
+      <IisWebApplicationPoolName>ASP.NET v4.0</IisWebApplicationPoolName>
+      <IisVirtualDirectoryPhysicalPath>D:\WebSites\DefaultWebSite\NuGet</IisVirtualDirectoryPhysicalPath>
       <PackageDirectoryPath>$(BuildDirectoryPath)\Release\_PublishedWebsites\StealFocus.NuGet.Web.UI_Package</PackageDirectoryPath>
       <DeleteFilesOnTarget>false</DeleteFilesOnTarget>
-    </MSDeployAction>-->
+    </MSDeployAction>
   </ItemGroup>
 
   <PropertyGroup>
@@ -241,7 +241,7 @@
   <Target Name="AfterSolutionCompileCustom">
     <!-- Enter your custom steps here. -->
     <PropertyGroup>
-      <PackageTempRootDirToRemove>$(SystemDrive)\BzyAuthPkg</PackageTempRootDirToRemove>
+      <PackageTempRootDirToRemove>$(SystemDrive)\StlFcsNgt</PackageTempRootDirToRemove>
     </PropertyGroup>
     <!-- We use a temporary directory when packaging with MSDeploy, delete this directory here (it is no longer required). -->
     <RemoveDir 
