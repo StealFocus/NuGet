@@ -28,5 +28,4 @@ obj/
 Thumbs.db
 
 !Source/.nuget/NuGet.exe
-Source/Packages/
 AssemblyInfoCommon.g.cs
