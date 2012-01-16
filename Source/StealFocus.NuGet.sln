@@ -34,6 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A273
 		Scripts\StealFocus.NuGet.Build.Project.CSharp.targets = Scripts\StealFocus.NuGet.Build.Project.CSharp.targets
 		Scripts\StealFocus.NuGet.Build.Project.targets = Scripts\StealFocus.NuGet.Build.Project.targets
 		Scripts\StealFocus.NuGet.Build.Project.VisualBasic.targets = Scripts\StealFocus.NuGet.Build.Project.VisualBasic.targets
+		Scripts\StealFocus.NuGet.CCNet.proj = Scripts\StealFocus.NuGet.CCNet.proj
 		Scripts\StealFocus.NuGet.targets = Scripts\StealFocus.NuGet.targets
 	EndProjectSection
 EndProject
