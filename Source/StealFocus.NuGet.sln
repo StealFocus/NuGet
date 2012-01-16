@@ -40,6 +40,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A273
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StealFocus.NuGet.Web.UI.Tests", "StealFocus.NuGet.Web.UI.Tests\StealFocus.NuGet.Web.UI.Tests.csproj", "{BB0E0097-7D12-49F9-BBAC-6CDCB75E8BD5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{115E7782-37A2-4327-A430-080DE1CBDD1C}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = StealFocus.NuGet.vsmdi
@@ -60,5 +62,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB0E0097-7D12-49F9-BBAC-6CDCB75E8BD5} = {115E7782-37A2-4327-A430-080DE1CBDD1C}
 	EndGlobalSection
 EndGlobal
