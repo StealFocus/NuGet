@@ -174,9 +174,9 @@
     <MSDeployAction Include="ip-0A3AE60A-StealFocus.NuGet.Web.UI">
       <RequiredBranchName>v1.0</RequiredBranchName>
       <TargetServer>ip-0A3AE60A</TargetServer>
-      <IisWebApplicationName>Default Web Site/NuGet</IisWebApplicationName>
+      <IisWebApplicationName>build01.stealfocus.co.uk/NuGet</IisWebApplicationName>
       <IisWebApplicationPoolName>ASP.NET v4.0</IisWebApplicationPoolName>
-      <IisVirtualDirectoryPhysicalPath>D:\WebSites\DefaultWebSite\NuGet</IisVirtualDirectoryPhysicalPath>
+      <IisVirtualDirectoryPhysicalPath>D:\WebSites\build01.stealfocus.co.uk\NuGet</IisVirtualDirectoryPhysicalPath>
       <PackageDirectoryPath>$(BuildDirectoryPath)\Release\_PublishedWebsites\StealFocus.NuGet.Web.UI_Package</PackageDirectoryPath>
       <DeleteFilesOnTarget>false</DeleteFilesOnTarget>
     </MSDeployAction>
